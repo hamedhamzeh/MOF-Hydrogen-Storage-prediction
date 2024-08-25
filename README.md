@@ -21,7 +21,6 @@
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#references">References</a></li>
-    <li><a href="#how-to-use-this-repo">How to Use This Repo</a></li>
 </ul>
 
 <h2 id="introduction">Introduction</h2>
@@ -29,6 +28,7 @@
 
 <h2 id="about-dataset">About Dataset</h2>
 <p>Data for this project was collected from various sources, including research papers and publicly available datasets on hydrogen storage and MOFs. The data underwent several preprocessing steps, including cleaning, feature selection, and transformation. The key features used in the modeling include:</p>
+
 <ul>
     <li>Single Crystal Density (D)</li>
     <li>Pore Volume (PV)</li>
@@ -37,8 +37,8 @@
     <li>Void Fraction (VF)</li>
     <li>Largest Cavity Diameter (LCD)</li>
     <li>Pore Limiting Diameter (PLD)</li>
-    
 </ul>
+<p> You can download the cleaned dataset used in this project <a href="https://link-to-your-dataset.com" target="_blank">here</a>.</p>
 
 <h2 id="modeling-approach">Modeling Approach</h2>
 <p>Several AI models were developed and compared to predict the hydrogen storage capacity of MOFs. The models include:</p>
@@ -50,22 +50,28 @@
     <li>Multilayer Perceptron (MLP)</li>
     <li>XGBoost (XGB)</li>
 </ul>
-<p>The modeling process involved hyperparameter optimization, model training, and evaluation using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).</p>
+<p>The modeling process involved hyperparameter optimization using <strong>Optuna</strong>, model training, and evaluation using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).</p>
 
 <h2 id="results-and-evaluation">Results and Evaluation</h2>
 <p>The results showed that certain models outperformed others in predicting both gravimetric and volumetric hydrogen storage capacities. For example, models like Random Forest and XGBoost provided the lowest MSE and RMSE values, indicating higher accuracy.</p>
-<p>Additionally, a genetic algorithm was used to further optimize the model by selecting the best MOFs for hydrogen storage based on the desired properties.</p>
+<p><strong>Comparing Models Preformance</strong></p>
+<ul>
+    <li><img src="https://link-to-image-1.com" alt="Result Image 1" width="500"></li>
+    <li><img src="https://link-to-image-2.com" alt="Result Image 2" width="500"></li>
+    <li><img src="https://link-to-image-3.com" alt="Result Image 3" width="500"></li>
+    <li><img src="https://link-to-image-4.com" alt="Result Image 4" width="500"></li>
+</ul>
 
 <h2 id="conclusion">Conclusion</h2>
-<p>This project successfully developed and optimized AI models for predicting hydrogen storage capacity in MOFs. The use of genetic algorithms further enhanced the model's performance by identifying the most suitable MOFs for the task. The results can significantly contribute to the development of more efficient hydrogen storage systems.</p>
+<p>This project successfully developed and optimized AI models for predicting hydrogen storage capacity in MOFs. The results can significantly contribute to the development of more efficient hydrogen storage systems.</p>
 
 <h2 id="contributors">Contributors</h2>
 <p>This project was made possible through the collaborative efforts of a dedicated team. The contributors include:</p>
 <ul>
-    <li><strong>Your Name</strong> - <em>Project Lead and AI Developer</em>: Led the project, developed AI models, and performed data analysis.</li>
-    <li><strong>Contributor Name 1</strong> - <em>Data Scientist</em>: Responsible for data collection, cleaning, and preprocessing.</li>
-    <li><strong>Contributor Name 2</strong> - <em>Materials Scientist</em>: Provided expertise on Metal-Organic Frameworks (MOFs) and contributed to feature selection.</li>
-    <li><strong>Contributor Name 3</strong> - <em>Software Engineer</em>: Assisted in coding, model optimization, and deployment.</li>
+    <li><strong>Hamed Hamzeh</strong> - <em>AI Developer</em>:developed AI models, and performed data analysis.</li>
+    <li><strong>Amir Hosein Khalili</strong> - <em>Researcher</em>: Responsible for data collection, cleaning, and preprocessing.</li>
+    <li><strong>Zahra Izadi</strong> - <em>Materials Scientist</em>: Provided expertise on Metal-Organic Frameworks (MOFs) and contributed to feature selection.</li>
+    <li><strong>Seyed Sina Razavi</strong> - <em>Project Lead</em></li>
 </ul>
 
 <h2 id="references">References</h2>
@@ -75,17 +81,6 @@
     <li>J. Yang, A. Sudik, C. Wolverton, and D. J. Siegel, “High capacity hydrogen storage materials: Attributes for automotive applications and techniques for materials discovery,” Chem. Soc. Rev., vol. 39, no. 2, pp. 656–675, 2010, doi: 10.1039/b802882f.</li>
     <li>H. Furukawa, K. E. Cordova, M. O’Keeffe, and O. M. Yaghi, “The chemistry and applications of metal-organic frameworks,” Science, vol. 341, no. 6149, 2013, doi: 10.1126/science.1230444.</li>
 </ul>
-
-<h2 id="how-to-use-this-repo">How to Use This Repo</h2>
-<p>To use the code and models in this repository, follow these steps:</p>
-<ol>
-    <li>Clone the repository to your local machine using <code>git clone https://github.com/YourUsername/AI-Hydrogen-Storage-Models.git</code>.</li>
-    <li>Ensure you have the necessary dependencies installed by running <code>pip install -r requirements.txt</code>.</li>
-    <li>Use the provided Jupyter notebooks to explore the data, train models, and evaluate their performance.</li>
-    <li>Modify the hyperparameters and data preprocessing steps as needed to experiment with different configurations.</li>
-</ol>
-
-<p>We hope this repository serves as a valuable resource for those interested in AI-driven hydrogen storage solutions.</p>
 
 </body>
 </html>
