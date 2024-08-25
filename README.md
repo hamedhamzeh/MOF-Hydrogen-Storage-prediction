@@ -38,7 +38,7 @@
     <li>Largest Cavity Diameter (LCD)</li>
     <li>Pore Limiting Diameter (PLD)</li>
 </ul>
-<p> You can download the cleaned dataset used in this project <a href="https://link-to-your-dataset.com" target="_blank">here</a>.</p>
+<p> You can download the cleaned dataset used in this project <a href="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/blob/main/CleanedData.csv" target="_blank">here</a>.</p>
 
 <h2 id="modeling-approach">Modeling Approach</h2>
 <p>Several AI models were developed and compared to predict the hydrogen storage capacity of MOFs. The models include:</p>
@@ -55,8 +55,8 @@
 <h2 id="results-and-evaluation">Results and Evaluation</h2>
 <p>The results showed that certain models outperformed others in predicting both gravimetric and volumetric hydrogen storage capacities. For example, models like Random Forest and XGBoost provided the lowest MSE and RMSE values, indicating higher accuracy.</p>
 <p><strong>Comparing Models Preformance</strong></p>
+<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/tree/main/images/Result_1.JPG" alt="Result Image 1" width="500">
 <ul>
-    <li><img src="https://link-to-image-1.com" alt="Result Image 1" width="500"></li>
     <li><img src="https://link-to-image-2.com" alt="Result Image 2" width="500"></li>
     <li><img src="https://link-to-image-3.com" alt="Result Image 3" width="500"></li>
     <li><img src="https://link-to-image-4.com" alt="Result Image 4" width="500"></li>
