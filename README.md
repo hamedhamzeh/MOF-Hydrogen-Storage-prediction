@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Driven Hydrogen Storage Models</title>
 </head>
 <body>
 
-<h1>AI-Driven Hydrogen Storage Models</h1>
+<h1>ML-Driven Hydrogen Storage Models</h1>
 
-<p>This repository contains the code and documentation for the project titled <strong>"AI-Driven Hydrogen Storage Models"</strong>. The primary goal of this project is to develop and optimize alternative models for hydrogen storage using artificial intelligence (AI) techniques. This project specifically focuses on using Metal-Organic Frameworks (MOFs) to enhance hydrogen storage capacity.</p>
+<p>This repository contains the code, dataset, and documentation for the project titled <strong>"ML-Driven Hydrogen Storage Models"</strong>. The primary goal of this project is to develop and optimize alternative models for hydrogen storage using machine learning techniques. This project specifically focuses on using Metal-Organic Frameworks (MOFs) to enhance hydrogen storage capacity.</p>
 
-<p><strong>Achievement:</strong> I am proud to announce that this project earned me the <strong>Third Place</strong> in the <em>National Competition</em> held by Iran’s National Elites Foundation. The competition was focused on the <em>Research and Development of a Machine Learning Model capable of Detecting and Proposing the Proper Hydrogen Adsorbent</em>.</p>
+<p><strong>Achievement:</strong> This project earned me the <strong>First Place</strong> in the <em>National Competition</em> held by Iran’s National Elites Foundation. The competition was focused on the <em>Research and Development of a Machine Learning Model capable of Detecting and Proposing the Proper Hydrogen Adsorbent</em>.</p>
 
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#data-collection-and-preprocessing">Data Collection and Preprocessing</a></li>
+    <li><a href="#about-dataset">About Dataset</a></li>
     <li><a href="#modeling-approach">Modeling Approach</a></li>
     <li><a href="#results-and-evaluation">Results and Evaluation</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
@@ -28,7 +27,7 @@
 <h2 id="introduction">Introduction</h2>
 <p>Hydrogen storage is a critical component of energy systems, particularly for renewable energy sources like wind and solar. The storage of hydrogen in a compact and safe manner is essential for its use in fuel cells and other applications. This project explores the use of AI models to predict and optimize the hydrogen storage capacity of MOFs, which are known for their high surface area and tunable porosity.</p>
 
-<h2 id="data-collection-and-preprocessing">Data Collection and Preprocessing</h2>
+<h2 id="about-dataset">About Dataset</h2>
 <p>Data for this project was collected from various sources, including research papers and publicly available datasets on hydrogen storage and MOFs. The data underwent several preprocessing steps, including cleaning, feature selection, and transformation. The key features used in the modeling include:</p>
 <ul>
     <li>Single Crystal Density (D)</li>
@@ -38,6 +37,7 @@
     <li>Void Fraction (VF)</li>
     <li>Largest Cavity Diameter (LCD)</li>
     <li>Pore Limiting Diameter (PLD)</li>
+    
 </ul>
 
 <h2 id="modeling-approach">Modeling Approach</h2>
