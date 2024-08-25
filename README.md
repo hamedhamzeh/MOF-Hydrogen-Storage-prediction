@@ -55,12 +55,11 @@
 <h2 id="results-and-evaluation">Results and Evaluation</h2>
 <p>The results showed that certain models outperformed others in predicting both gravimetric and volumetric hydrogen storage capacities. For example, models like Random Forest and XGBoost provided the lowest MSE and RMSE values, indicating higher accuracy.</p>
 <p><strong>Comparing Models Preformance</strong></p>
-<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/tree/main/images/Result_1.JPG" alt="Result Image 1" width="500">
-<ul>
-    <li><img src="https://link-to-image-2.com" alt="Result Image 2" width="500"></li>
-    <li><img src="https://link-to-image-3.com" alt="Result Image 3" width="500"></li>
-    <li><img src="https://link-to-image-4.com" alt="Result Image 4" width="500"></li>
-</ul>
+<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/blob/main/images/Result_1.JPG" alt="Result Image 1" width="1000">
+<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/blob/main/images/Result_2.JPG" alt="Result Image 1" width="1000">
+<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/blob/main/images/Result_3.JPG" alt="Result Image 1" width="1000">
+<img src="https://github.com/hamedhamzeh/MOF-Hydrogen-Storage-prediction/blob/main/images/Result_4.JPG" alt="Result Image 1" width="1000">
+
 
 <h2 id="conclusion">Conclusion</h2>
 <p>This project successfully developed and optimized AI models for predicting hydrogen storage capacity in MOFs. The results can significantly contribute to the development of more efficient hydrogen storage systems.</p>
