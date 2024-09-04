@@ -68,9 +68,9 @@
 <p>This project was made possible through the collaborative efforts of a dedicated team. The contributors include:</p>
 <ul>
     <li><strong>Hamed Hamzeh</strong> - <em>AI Developer</em>:developed AI models, and performed data analysis.</li>
-    <li><strong>Amir Hosein Khalili</strong> - <em>Researcher</em>: Responsible for data collection, cleaning, and preprocessing.</li>
+    <li><strong>Amir Hosein Khalili</strong> - <em>Researcher</em></li>
     <li><strong>Zahra Izadi</strong> - <em>Materials Scientist</em>: Provided expertise on Metal-Organic Frameworks (MOFs) and contributed to feature selection.</li>
-    <li><strong>Seyed Sina Razavi</strong> - <em>Project Lead</em></li>
+    <li><strong>Seyed Sina Razavi</strong> - <em>Researcher</em></li>
 </ul>
 
 <h2 id="references">References</h2>
